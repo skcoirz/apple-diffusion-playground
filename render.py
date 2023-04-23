@@ -9,7 +9,7 @@ from python_coreml_stable_diffusion import pipeline
 # 	--seed 93
 
 # shell command.
-python -m python_coreml_stable_diffusion.pipeline --prompt "a photo of an astronaut riding a horse on mars" -i coreml-stable-diffusion-2-1-base/original/packages -o output --compute-unit ALL --seed 93
+# python -m python_coreml_stable_diffusion.pipeline --prompt "a photo of an astronaut riding a horse on mars" -i coreml-stable-diffusion-2-1-base/original/packages --model-version stabilityai/stable-diffusion-2-1-base -o output --compute-unit ALL --seed 93
 
 # python -m python_coreml_stable_diffusion.pipeline
 # 	--prompt "a photo of an astronaut riding a horse on mars"
