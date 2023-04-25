@@ -8,22 +8,21 @@ from python_coreml_stable_diffusion import pipeline
 # 	--compute-unit ALL
 # 	--seed 93
 
-# shell command.
-# python -m python_coreml_stable_diffusion.pipeline --prompt "a photo of an astronaut riding a horse on mars" -i coreml-stable-diffusion-2-1-base/original/packages --model-version stabilityai/stable-diffusion-2-1-base -o output --compute-unit ALL --seed 93
-
+# Updated Command.
 # python -m python_coreml_stable_diffusion.pipeline
-# 	--prompt "a photo of an astronaut riding a horse on mars"
-# 	--compute-unit ALL
-# 	-o output
-# 	--seed 93
-# 	-i models/coreml-stable-diffusion-v1-5_original_packages
-# 	--model-version runwayml/stable-diffusion-v1-5
+#   --prompt "a photo of an astronaut riding a horse on mars"
+#   --compute-unit ALL
+#   -o output
+#   --seed 93
+#   -i models/coreml-stable-diffusion-v1-5_original_packages
+#   --model-version runwayml/stable-diffusion-v1-5
 
+# shell command. (latest)
+# python -m python_coreml_stable_diffusion.pipeline --prompt "a photo of an astronaut riding a horse on mars" -i models/stabilityai_stable-diffusion-2-1 --model-version stabilityai/stable-diffusion-2-1 -o output --compute-unit ALL --seed 93
 
 # Apple Converted Stable Diffusion Model - stability.ai Stable Diffusion
 # https://huggingface.co/apple/coreml-stable-diffusion-2-base
 # https://huggingface.co/docs/diffusers/optimization/mps // huggingface pipeline
-
 
 import argparse
 def get_args_parser():
