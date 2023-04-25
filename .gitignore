@@ -1,5 +1,4 @@
 python_coreml_stable_diffusion
-coreml-stable-diffusion-2-base/
-coreml-stable-diffusion-2-1-base/
+models/
 output/
 .DS_Store
